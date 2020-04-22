@@ -22,7 +22,7 @@ Simple usage of the class
 ``` php
 require_once "vendor/autoload.php";
 
-$predictor = new JoelWalls\Predictor($license_plate, $date, $time);
+$predictor = new JoelWalls\PicoYPlaca\Predictor($license_plate, $date, $time);
 
 if ($predictor->canDrive()) {
     echo "Car can be on the road";
@@ -36,7 +36,7 @@ The package supports a DateTime instance as second parameter.
 ``` php
 require_once "vendor/autoload.php";
 
-use JoelWalls\Predictor;
+use JoelWalls\PicoYPlaca\Predictor;
 
 $predictor = new Predictor($license_plate, new \DateTime);
 
@@ -53,7 +53,7 @@ with a different TimeZone.
 ``` php
 require_once "vendor/autoload.php";
 
-use JoelWalls\Predictor;
+use JoelWalls\PicoYPlaca\Predictor;
 
 $predictor = new Predictor($license_plate, new \DateTime);
 $predictor->setTimeZone('America/Guayaquil');
