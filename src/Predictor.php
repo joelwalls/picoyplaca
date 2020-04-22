@@ -110,15 +110,15 @@ class Predictor
      */
     public function checkTime()
     {
-        $morning_start = new \DateTime('07:00', $this->date->getTimezone());
-        $morning_end = new \DateTime('09:30', $this->date->getTimezone());
-        
+        $morning_start = new \DateTime($this->date->format('Y-m-d') . '07:00', $this->date->getTimezone());
+        $morning_end = new \DateTime($this->date->format('Y-m-d') . '09:30', $this->date->getTimezone());
+
         if ($this->date >= $morning_start && $this->date < $morning_end) {
             return false;
         }
 
-        $afternoon__start = new \DateTime('16:00', $this->date->getTimezone());
-        $afternoon__end = new \DateTime('19:30', $this->date->getTimezone());
+        $afternoon__start = new \DateTime($this->date->format('Y-m-d') . ' 16:00', $this->date->getTimezone());
+        $afternoon__end = new \DateTime($this->date->format('Y-m-d') . '19:30', $this->date->getTimezone());
         
         if ($this->date >= $afternoon__start && $this->date < $afternoon__end) {
             return false;
