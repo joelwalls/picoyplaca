@@ -3,8 +3,6 @@
 [![Latest Version](https://img.shields.io/github/release/joelwalls/picoyplaca.svg?style=flat-square)](https://github.com/joelwalls/picoyplaca/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/joelwalls/picoyplaca/master.svg?style=flat-square)](https://travis-ci.org/joelwalls/picoyplaca)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/joelwalls/picoyplaca.svg?style=flat-square)](https://scrutinizer-ci.com/g/joelwalls/picoyplaca/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/joelwalls/picoyplaca.svg?style=flat-square)](https://scrutinizer-ci.com/g/joelwalls/picoyplaca)
 [![Total Downloads](https://img.shields.io/packagist/dt/joelwalls/picoyplaca.svg?style=flat-square)](https://packagist.org/packages/joelwalls/picoyplaca)
 
 This small package offers a simple class to predict if a certain license plate could be on the road based on the timing restrictions of Quitos's transit regulations. Framework agnostic.
