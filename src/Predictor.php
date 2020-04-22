@@ -108,7 +108,7 @@ class Predictor
      *
      * @return bool Returns true if the time is restricted
      */
-    public function checkTime()
+    private function checkTime()
     {
         $morning_start = new \DateTime($this->date->format('Y-m-d') . '07:00', $this->date->getTimezone());
         $morning_end = new \DateTime($this->date->format('Y-m-d') . '09:30', $this->date->getTimezone());
