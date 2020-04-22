@@ -117,10 +117,10 @@ class Predictor
             return false;
         }
 
-        $afternoon__start = new \DateTime($this->date->format('Y-m-d') . ' 16:00', $this->date->getTimezone());
-        $afternoon__end = new \DateTime($this->date->format('Y-m-d') . '19:30', $this->date->getTimezone());
+        $afternoon_start = new \DateTime($this->date->format('Y-m-d') . ' 16:00', $this->date->getTimezone());
+        $afternoon_end = new \DateTime($this->date->format('Y-m-d') . '19:30', $this->date->getTimezone());
         
-        if ($this->date >= $afternoon__start && $this->date < $afternoon__end) {
+        if ($this->date >= $afternoon_start && $this->date < $afternoon_end) {
             return false;
         }
 
