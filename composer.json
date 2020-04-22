@@ -1,6 +1,5 @@
 {
     "name": "joelwalls/picoyplaca",
-    "version": "1.0.0",
     "description": "This simple package predicts if a given license place can be on the road at a certain date and time based on Quito restrictions.",
     "keywords": [
         "pico",
